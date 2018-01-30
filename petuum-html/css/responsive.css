@@ -1,0 +1,95 @@
+@media screen and (min-width: 1310px) {
+	.container {
+		width: 1280px;
+		padding: 0 50px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.mainmenu.navbar-nav {
+		margin-top: 28px;
+	}
+	.modal-dialog {
+	    width: 970px;
+	    margin: 80px auto;
+	}
+	#blog div.row,
+	#career div.row {
+		margin: 0 54px;
+		padding: 0 44px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.contact-map {
+		margin: 0 -74px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.mainmenu.navbar-nav > li:last-child {
+		display: inline-block;
+	}
+	.footer-info {
+		text-align: center;
+	}
+	.footer-nav .demopadding {
+		margin: 0 auto;
+		float: none;
+	}
+	.footer-nav .footer-menu {
+		float: none;
+		width: 100%;
+	}
+	.footer-nav .footer-menu ul,
+	.solutions .summary,
+	#petuum-hp .petuum-hp-news {
+		display: block;
+	}
+	.footer-nav .footer-menu ul > li {
+		padding: 8px 8px !important;
+	}
+	.latest-news .row {
+		margin: 0 -15px !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.mainmenu.navbar-nav > li > a {
+		padding: 10px 15px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.navbar-header .navbar-brand > img {
+		width: 75%;
+	}
+	.navbar-header .navbar-toggle {
+		margin: 20px 0 8px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.section-row.section-row-in ul {
+		display: block;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.footer-nav .footer-menu ul > li {
+		padding: 8px 25px;
+	}
+	footer {
+		padding: 0 !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.mainmenu.navbar-nav > li:last-child {
+		margin-left: 0 !important;
+	}
+	.footer-nav .footer-menu ul > li {
+		padding: 8px;
+	}
+}
